@@ -1,0 +1,46 @@
+{
+  "name": "safe-tools",
+  "version": "1.0.0",
+  "description": "Folk Tools is a list of functions to help you using folkate. It can be usefull or not",
+  "main": "./build/dist/safe-tools.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buchalla/safe-tools.git"
+  },
+  "keywords": [
+    "Functional"
+  ],
+  "author": "Victor Buchalla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buchalla/safe-tools/issues"
+  },
+  "homepage": "https://github.com/buchalla/safe-tools#readme",
+  "nyc": {
+    "check-coverage": true,
+    "lines": 100,
+    "statements": 100,
+    "functions": 100,
+    "branches": 100,
+    "exclude": [
+      "src/",
+      "build/test/",
+      "**/*.spec.js"
+    ]
+  },
+  "devDependencies": {
+    "buble": "^0.19.6",
+    "nyc": "^13.1.0",
+    "rimraf": "^2.6.2",
+    "uglify-js": "^3.4.9",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "folktale": "^2.3.1",
+    "ramda": "^0.26.1"
+  }
+}

@@ -1,0 +1,12 @@
+node_modules
+.node-version
+build/
+.coveralls.yml
+.nyc_output
+coverage
+*.log
+.DS_Store
+.DS_Store?
+.Trashes
+ehthumbs.db
+Thumbs.db
