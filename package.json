@@ -10,7 +10,8 @@
     "build:dist": "webpack && uglifyjs build/dist/safe-tools.js -c \"warnings=false\" -m -o build/dist/safe-tools.min.js",
     "build": "rimraf build && buble -i src -o build && npm run build:dist",
     "lint": "eslint --ext .md,.js .",
-    "lint:dev": "esw --ext .md,.js . -w --color"
+    "lint:dev": "esw --ext .md,.js . -w --color",
+    "test:server": "php -S localhost:8080"
   },
   "lint-staged": {
     "*.{js,md}": [
