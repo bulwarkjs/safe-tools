@@ -3,5 +3,6 @@ module.exports = {
   isNilOrEmpty: require('./isNilOrEmpty'),
   log: require('./log'),
   fromAllNullables: require('./fromAllNullables'),
-  safeProp: require('./safeProp')
+  safeProp: require('./safeProp'),
+  tryCatch: require('./tryCatch')
 }
