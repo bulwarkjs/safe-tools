@@ -10,3 +10,4 @@ coverage
 .Trashes
 ehthumbs.db
 Thumbs.db
+yarn.lock
