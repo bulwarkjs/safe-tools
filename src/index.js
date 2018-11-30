@@ -4,5 +4,7 @@ module.exports = {
   log: require('./log'),
   fromAllNullables: require('./fromAllNullables'),
   safeProp: require('./safeProp'),
-  tryCatch: require('./tryCatch')
+  tryCatch: require('./tryCatch'),
+  safePath: require('./safePath'),
+  safeNaN: require('./safeNaN')
 }
