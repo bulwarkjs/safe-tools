@@ -1,12 +1,12 @@
-const path = require('path');
+const path = require('path')
 
 module.exports = {
   mode: 'none',
   entry: './build/index.js',
   output: {
-    filename: 'folk-tools.js',
+    filename: 'safe-tools.js',
     path: path.resolve(__dirname, 'build', 'dist'),
-    library: 'folk-tools',
+    library: 'safe-tools',
     libraryTarget: 'umd'
   }
 }
