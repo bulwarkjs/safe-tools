@@ -81,7 +81,7 @@ const nullables = [ 1, null, [ 3, null ], { foo: 4, bar: null } ]
 
 const value = safeTools.removeNullables(nullables)
 
-console.log(value) // [1, [ 3 ], { foo: 4 }
+console.log(value) // [1, [ 3 ], { foo: 4 } ]
 ```
 
 ### safePath
