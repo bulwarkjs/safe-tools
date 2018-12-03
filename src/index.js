@@ -6,5 +6,5 @@ module.exports = {
   safeProp: require('./safeProp'),
   tryCatch: require('./tryCatch'),
   safePath: require('./safePath'),
-  safeNaN: require('./safeNaN')
+  safeNumber: require('./safeNumber')
 }
