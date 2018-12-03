@@ -6,7 +6,7 @@
   "scripts": {
     "preversion": "npm run build",
     "precommit": "lint-staged",
-    "build:publish": "./bin/publish",
+    "build:publish": "./.bin/publish",
     "build:dist": "webpack && uglifyjs build/dist/safe-tools.js -c \"warnings=false\" -m -o build/dist/safe-tools.min.js",
     "build": "rimraf build && buble -i src -o build && npm run build:dist",
     "lint": "eslint --ext .md,.js .",
