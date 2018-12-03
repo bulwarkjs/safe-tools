@@ -14,7 +14,7 @@
     "test:server": "php -S localhost:8080"
   },
   "lint-staged": {
-    "*.{js,md}": [
+    "*.{js}": [
       "eslint --fix",
       "git add"
     ]
