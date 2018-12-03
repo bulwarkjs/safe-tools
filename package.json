@@ -1,7 +1,7 @@
 {
   "name": "safe-tools",
   "version": "1.0.0",
-  "description": "Safe Tools is a list of functions to help you using folkate. It can be usefull or not",
+  "description": "Safe Tools is a list of functions to help you using folkate. It can be useful or not",
   "main": "./build/dist/safe-tools.js",
   "scripts": {
     "preversion": "npm run build",
