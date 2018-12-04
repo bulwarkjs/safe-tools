@@ -22,16 +22,16 @@ Safe Tools is a list of functions to help you with nullcheck based on folktale.
 `safe-tools` is available from `npm`.
 
 ```
-$ npm install safe-tools -S
+$ npm install @bulwarkjs/safe-tools -S
 ```
 
 Importing
 ```javascript
-import safeTools from 'safeTools'
+import safeTools from '@bulwarkjs/safeTools'
 // or
-import safeProp from 'safeTools/safeProp'
+import safeProp from '@bulwarkjs/safeTools/safeProp'
 // or
-import { safePath } from 'safeTools'
+import { safePath } from '@bulwarkjs/safeTools'
 ```
 
 ## Why safe-tools ?
