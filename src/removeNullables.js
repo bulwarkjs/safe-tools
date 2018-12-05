@@ -1,12 +1,20 @@
-const R = require('ramda');
+const ifElse = require('ramda/src/ifElse')
+const either = require('ramda/src/either')
+const is = require('ramda/src/is')
+const pipe = require('ramda/src/pipe')
+const filter = require('ramda/src/filter')
+const isNil = require('ramda/src/isNil')
+const not = require('ramda/src/not')
+const map = require('ramda/src/map')
+const identity = require('ramda/src/identity')
 
-const removeNullables = R.ifElse(
-	R.either(R.is(Array), R.is(Object)),
-	R.pipe(
-		R.filter(R.pipe(R.isNil, R.not)),
-		R.map(item => removeNullables(item))
+const removeNullables = ifElse(
+	either(is(Array), is(Object)),
+	pipe(
+		filter(pipe(isNil, not)),
+		map(item => removeNullables(item))
 	),
-	R.identity
+	identity
 )
 
 module.exports = removeNullables

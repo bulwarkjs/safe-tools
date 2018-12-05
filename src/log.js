@@ -1,6 +1,6 @@
-const R = require('ramda')
+const tap = require('ramda/src/tap')
 
 const log = (prefix) =>
-  R.tap((value) => console.log('%c%s: ', 'color: #C753B4; background: #E7FFE7; font-size: 24px;', prefix, value))
+  tap((value) => console.log('%c%s: ', 'color: #C753B4; background: #E7FFE7; font-size: 24px;', prefix, value))
 
 module.exports = log
