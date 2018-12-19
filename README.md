@@ -27,11 +27,11 @@ $ npm install @bulwarkjs/safe-tools -S
 
 Importing
 ```javascript
-import safeTools from '@bulwarkjs/safeTools'
+import safeTools from '@bulwarkjs/safe-tools'
 // or
-import safeProp from '@bulwarkjs/safeTools/safeProp'
+import safeProp from '@bulwarkjs/safe-tools/safeProp'
 // or
-import { safePath } from '@bulwarkjs/safeTools'
+import { safePath } from '@bulwarkjs/safe-tools'
 ```
 
 ## Why safe-tools ?
